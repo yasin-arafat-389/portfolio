@@ -2,12 +2,6 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
-/** 
- * ===================================================================
- * 02. base style overrides - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 html {
   font-size: 10px;
 }
@@ -1566,7 +1560,7 @@ header .logo a {
 #about {
   background: #ffffff;
   padding-top: 12rem;
-  padding-bottom: 15rem;
+  padding-bottom: 3rem;
 }
 #about .section-intro {
   margin-bottom: 3rem;
@@ -1600,6 +1594,7 @@ header .logo a {
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
+  color: #ff0077;
 }
 .about-content .info-list {
   list-style: none;

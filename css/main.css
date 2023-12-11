@@ -1691,8 +1691,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
 }
 
 #resume .resume-header {
@@ -1700,6 +1700,7 @@ header .logo a {
 }
 #resume .resume-header h2 {
   color: #ff0077;
+  font-size: 3.6rem;
 }
 
 #resume .resume-timeline {
@@ -1860,8 +1861,91 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
+
+.card-bg {
+  background: #c3edc0;
+}
+
+.feat {
+  margin-top: 10px;
+}
+
+.btn-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.git-btn {
+  background: #454545;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.git-btn:hover {
+  background: #454545;
+  color: #fff;
+}
+
+.git-btn:active {
+  background: #454545;
+  color: #fff;
+}
+
+.git-btn:focus {
+  background: #454545;
+  color: #fff;
+}
+
+.live-btn {
+  background: #00a9ff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.live-btn:hover {
+  background: #00a9ff;
+  color: #000;
+}
+.live-btn:focus {
+  background: #00a9ff;
+  color: #000;
+}
+.live-btn:active {
+  background: #00a9ff;
+  color: #000;
+}
+
+#icon-btn {
+  font-size: 30px;
+  color: #fff;
+}
+
+#icon-btn-globe {
+  font-size: 30px;
+  color: #000;
+}
+
 #portfolio {
-  background: #ffffff;
+  /* background: #ffdfdf; */
+  background: #fff;
   padding-top: 12rem;
   padding-bottom: 12rem;
 }

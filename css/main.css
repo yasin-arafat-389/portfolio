@@ -1805,13 +1805,6 @@ header .logo a {
   }
 }
 
-/** 
- * ===================================================================
- * 13. portfolio - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-
 .card-bg {
   background: #fffd82;
 }
@@ -2598,12 +2591,6 @@ header .logo a {
   }
 }
 
-/** 
- * ===================================================================
- * 18. footer - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
 footer {
   padding-bottom: 3rem;
   font-size: 1.4rem;
@@ -2652,11 +2639,6 @@ footer .copyright span:last-child::after {
   display: none;
 }
 
-/**
- * responsive:
- * footer
- * -------------------------------------------------------------------
- */
 @media only screen and (max-width: 768px) {
   footer {
     text-align: center;
@@ -2711,5 +2693,3 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
   background: #000000;
 }
-
-/*# sourceMappingURL=main.css.map */

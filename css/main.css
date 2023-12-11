@@ -736,8 +736,8 @@ button.large,
 }
 button.stroke,
 .button.stroke {
-  background: transparent !important;
-  border: 3px solid #313131;
+  background: #cc005f !important;
+  border-radius: 10px;
   line-height: 4.8rem;
 }
 button.stroke.medium,
@@ -750,7 +750,6 @@ button.stroke.large,
 }
 button.stroke:hover,
 .button.stroke:hover {
-  border: 3px solid #ff0077;
   color: #ff0077;
 }
 button::-moz-focus-inner,
@@ -759,17 +758,6 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-/** 
- * ===================================================================
- * 07. other components - (_others.scss)
- *
- * ------------------------------------------------------------------- 
- */
-
-/**
- * alert box - (_alert-box.scss)
- * -------------------------------------------------------------------
- */
 .alert-box {
   padding: 2.1rem 4rem 2.1rem 3rem;
   position: relative;
@@ -801,14 +789,6 @@ input::-moz-focus-inner {
   color: #bba31b;
 }
 
-/**
- * additional typo styles - (_additional-typo.scss)
- * -------------------------------------------------------------------
- */
-
-/**
- * drop cap 
- */
 .drop-cap:first-letter {
   float: left;
   margin: 0;
@@ -821,9 +801,6 @@ input::-moz-focus-inner {
   color: #313131;
 }
 
-/**
- * line definition style
- */
 .lining dt,
 .lining dd {
   display: inline;
@@ -845,9 +822,6 @@ input::-moz-focus-inner {
   margin-left: -0.2em;
 }
 
-/**
- * dictionary definition style
- */
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
@@ -864,19 +838,6 @@ input::-moz-focus-inner {
   content: counter(definitions, decimal) ". ";
 }
 
-/** 
- * Pull Quotes
- * -----------
- * markup:
- *
- * <aside class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- *	</aside>
- *
- * --------------------------------------------------------------------- 
- */
 .pull-quote {
   position: relative;
   padding: 2.1rem 3rem 2.1rem 0px;
@@ -906,19 +867,6 @@ input::-moz-focus-inner {
   content: none;
 }
 
-/** 
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
- * ---------------------------------------------------------------------
- */
 .stats-tabs {
   padding: 0;
   margin: 3rem 0;
@@ -952,10 +900,6 @@ input::-moz-focus-inner {
   color: #888888;
 }
 
-/**
- * skillbars - (_skillbars.scss)
- * -------------------------------------------------------------------
- */
 .skill-bars {
   list-style: none;
   margin: 6rem 0 3rem;
@@ -1413,12 +1357,15 @@ header .logo a {
 }
 .intro-content .intro-position {
   font-family: "lora-regular", serif;
-  font-size: 1.7rem;
+  font-size: 2.7rem;
+  font-weight: bold;
   line-height: 2.4rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   color: #ffffff;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .intro-content .intro-position span {
   display: inline-block;
@@ -1428,14 +1375,14 @@ header .logo a {
   text-align: center;
   display: inline-block;
   padding: 0 8px 0 14px;
-  color: rgba(255, 255, 255, 0.3);
+  color: #cc005f;
 }
 .intro-content .intro-position span:first-child::before {
   content: "|";
   text-align: center;
   display: inline-block;
   padding: 0 14px 0 8px;
-  color: rgba(255, 255, 255, 0.3);
+  color: #cc005f;
 }
 .intro-content .button {
   color: #ffffff !important;
@@ -1772,6 +1719,7 @@ header .logo a {
   height: 3px;
   width: 50px;
   background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1931,6 +1879,10 @@ header .logo a {
 .live-btn:active {
   background: #00a9ff;
   color: #000;
+}
+
+.cont-style {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #icon-btn {

@@ -2693,3 +2693,13 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
   background: #000000;
 }
+
+.fiverr-btn {
+  background: #1dbf73;
+  display: inline;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: #fff !important;
+}
